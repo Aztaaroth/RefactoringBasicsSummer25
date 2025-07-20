@@ -33,22 +33,22 @@ namespace RefactoringBasicsSummer25
                 {
                     case "+":
                         result = num1 + num2;
-                        Console.WriteLine($"Your result: {num1} + {num2} = " + result);
+                        Console.WriteLine($"The result is: {num1} + {num2} = " + result);
                         break;
                     case "-":
                         result = num1 - num2;
-                        Console.WriteLine($"Your result: {num1} - {num2} = " + result);
+                        Console.WriteLine($"The result is: {num1} - {num2} = " + result);
                         break;
                     case "*":
                         result = num1 * num2;
-                        Console.WriteLine($"Your result: {num1} * {num2} = " + result);
+                        Console.WriteLine($"The result is: {num1} * {num2} = " + result);
                         break;
                     case "/":
                         result = num1 / num2;
-                        Console.WriteLine($"Your result: {num1} / {num2} = " + result);
+                        Console.WriteLine($"The result is: {num1} / {num2} = " + result);
                         break;
                     default:
-                        Console.WriteLine("That was not a valid option");
+                        Console.WriteLine("That is not a valid option");
                         break;
                 }
                 Console.Write("Would you like to continue? (Y = yes, N = No): ");
